@@ -1,0 +1,27 @@
+Stock Control System Version 2 with Session Management and Cookies
+
+The first step is to create the database and tables for the stock items and users.
+SQL Commands:
+-- Create a new database
+CREATE DATABASE stock_control;
+-- Use the stock_control database
+USE stock_control;
+-- Create a table for stock items
+CREATE TABLE stock (
+id INT AUTO_INCREMENT PRIMARY KEY,
+product_name VARCHAR(255) NOT NULL,
+quantity INT NOT NULL,
+price DECIMAL(10, 2) NOT NULL
+);
+-- Create a table for storing user credentials (for authentication)
+CREATE TABLE users (
+id INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(50) NOT NULL,
+password VARCHAR(255) NOT NULL
+);
+-- Insert sample data into stock and user tables
+INSERT INTO stock (product_name, quantity, price) VALUES ('Laptop', 10,
+800.00);
+INSERT INTO stock (product_name, quantity, price) VALUES ('Smartphone', 20,
+400.00);
+INSERT INTO users (username, password) VALUES ('admin', 'admin123');

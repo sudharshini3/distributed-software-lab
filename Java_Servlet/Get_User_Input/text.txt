@@ -1,0 +1,5 @@
+Goal:
+Create a servlet that receives user input from an HTML form and displays it back to the user.
+Steps:
+1. Create an HTML form to collect the user's name.
+2. Create a Servlet (GetUserInputServlet) to handle the form submission and display the user's name.

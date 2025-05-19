@@ -1,0 +1,16 @@
+Goal:
+Implement a servlet that interacts with a database to perform CRUD (Create, Read, Update, Delete)
+operations for a stock management system.
+Steps:
+1. Set up a database with a table named stock (fields: id, product_name, quantity).
+2. Create a simple web form to interact with the database (add, update, delete products).
+3. Create a Servlet (StockManagementServlet) that handles database operations.
+
+Database Setup (MySQL example):
+CREATE DATABASE stock_management;
+USE stock_management;
+CREATE TABLE stock (
+id INT AUTO_INCREMENT PRIMARY KEY,
+product_name VARCHAR(255),
+quantity INT
+);

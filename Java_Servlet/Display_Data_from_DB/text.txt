@@ -1,0 +1,5 @@
+Goal:
+Extend the Stock Management System to display the list of all products on another webpage.
+Steps:
+1. Create a Servlet to fetch and display all products from the database.
+2. Create a new HTML page to show the product list.

@@ -1,0 +1,5 @@
+Goal:
+Create a servlet that receives multiple user inputs from a form, performs a calculation, and displays the result.
+Steps:
+1. Create an HTML form to take inputs for two numbers.
+2. Create a Servlet (CalculateSumServlet) to calculate the sum of the numbers and display the result.
